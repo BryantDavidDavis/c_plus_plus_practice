@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		299A1E311A26BA79000DE775 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299A1E301A26BA79000DE775 /* main.cpp */; };
+		299A1E391A2E637B000DE775 /* bry_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299A1E371A2E637B000DE775 /* bry_stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		299A1E2D1A26BA79000DE775 /* c_plus_plus_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_plus_plus_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		299A1E301A26BA79000DE775 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		299A1E371A2E637B000DE775 /* bry_stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bry_stack.cpp; sourceTree = "<group>"; };
+		299A1E381A2E637B000DE775 /* bry_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bry_stack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				299A1E301A26BA79000DE775 /* main.cpp */,
+				299A1E371A2E637B000DE775 /* bry_stack.cpp */,
+				299A1E381A2E637B000DE775 /* bry_stack.h */,
 			);
 			path = c_plus_plus_practice;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299A1E391A2E637B000DE775 /* bry_stack.cpp in Sources */,
 				299A1E311A26BA79000DE775 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
