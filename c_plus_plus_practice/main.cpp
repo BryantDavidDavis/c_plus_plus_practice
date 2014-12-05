@@ -10,6 +10,6 @@
 #include "bry_stack.h"
 
 int main(int argc, const char * argv[]) {
-    std::cout << "hello my furry friends";
+    std::cout << "hello my furry friends, you are so furry indeed";
     return 0;
 }
