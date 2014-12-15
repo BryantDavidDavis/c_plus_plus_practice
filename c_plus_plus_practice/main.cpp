@@ -10,7 +10,9 @@
 #include "bry_stack.h"
 
 int main(int argc, const char * argv[]) {
-    std::cout << "hello my furry friends, you are so furry indeed";
-    std::cout << "why don't you just go have a party with all your furriness";
+//    std::cout << "hello my furry friends, you are so furry indeed";
+//    std::cout << "why don't you just go have a party with all your furriness";
+    
+    
     return 0;
 }
