@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292870121A71A2D400B58B93 /* btree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 292870101A71A2D400B58B93 /* btree.cpp */; };
+		2945297F1A6DBE56008821C2 /* bqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2945297D1A6DBE56008821C2 /* bqueue.cpp */; };
+		294529821A6E122D008821C2 /* cstack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 294529801A6E122D008821C2 /* cstack.cpp */; };
+		294529851A6E1D05008821C2 /* SetOfStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 294529831A6E1D05008821C2 /* SetOfStacks.cpp */; };
+		298533C81A84300400DE6743 /* priority_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 298533C61A84300400DE6743 /* priority_queue.cpp */; };
 		299A1E311A26BA79000DE775 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299A1E301A26BA79000DE775 /* main.cpp */; };
 		299A1E391A2E637B000DE775 /* bry_stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 299A1E371A2E637B000DE775 /* bry_stack.cpp */; };
+		29ACD4131A75BBAF000B502E /* bgraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29ACD4111A75BBAF000B502E /* bgraph.cpp */; };
+		29B989331A6F1B3F007A31F6 /* myqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B989311A6F1B3F007A31F6 /* myqueue.cpp */; };
+		29B989361A703E3D007A31F6 /* AnimalQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B989341A703E3D007A31F6 /* AnimalQueue.cpp */; };
+		29C0F48C1A6AF363002AD687 /* clist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29C0F48A1A6AF363002AD687 /* clist.cpp */; };
+		29D1F8D61A676D8E000A6E19 /* blist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29D1F8D41A676D8E000A6E19 /* blist.cpp */; };
+		29D31B1A1A6DB2CA00DBBC54 /* bstack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29D31B181A6DB2CA00DBBC54 /* bstack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +35,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		292870101A71A2D400B58B93 /* btree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btree.cpp; sourceTree = "<group>"; };
+		292870111A71A2D400B58B93 /* btree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btree.h; sourceTree = "<group>"; };
+		2945297D1A6DBE56008821C2 /* bqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bqueue.cpp; sourceTree = "<group>"; };
+		2945297E1A6DBE56008821C2 /* bqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bqueue.h; sourceTree = "<group>"; };
+		294529801A6E122D008821C2 /* cstack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cstack.cpp; sourceTree = "<group>"; };
+		294529811A6E122D008821C2 /* cstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstack.h; sourceTree = "<group>"; };
+		294529831A6E1D05008821C2 /* SetOfStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetOfStacks.cpp; sourceTree = "<group>"; };
+		294529841A6E1D05008821C2 /* SetOfStacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetOfStacks.h; sourceTree = "<group>"; };
+		298533C61A84300400DE6743 /* priority_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = priority_queue.cpp; sourceTree = "<group>"; };
+		298533C71A84300400DE6743 /* priority_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priority_queue.h; sourceTree = "<group>"; };
 		299A1E2D1A26BA79000DE775 /* c_plus_plus_practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_plus_plus_practice; sourceTree = BUILT_PRODUCTS_DIR; };
 		299A1E301A26BA79000DE775 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		299A1E371A2E637B000DE775 /* bry_stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bry_stack.cpp; sourceTree = "<group>"; };
 		299A1E381A2E637B000DE775 /* bry_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bry_stack.h; sourceTree = "<group>"; };
+		29ACD4111A75BBAF000B502E /* bgraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bgraph.cpp; sourceTree = "<group>"; };
+		29ACD4121A75BBAF000B502E /* bgraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bgraph.h; sourceTree = "<group>"; };
+		29B989311A6F1B3F007A31F6 /* myqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = myqueue.cpp; sourceTree = "<group>"; };
+		29B989321A6F1B3F007A31F6 /* myqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myqueue.h; sourceTree = "<group>"; };
+		29B989341A703E3D007A31F6 /* AnimalQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnimalQueue.cpp; sourceTree = "<group>"; };
+		29B989351A703E3D007A31F6 /* AnimalQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalQueue.h; sourceTree = "<group>"; };
+		29C0F48A1A6AF363002AD687 /* clist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clist.cpp; sourceTree = "<group>"; };
+		29C0F48B1A6AF363002AD687 /* clist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clist.h; sourceTree = "<group>"; };
+		29D1F8D41A676D8E000A6E19 /* blist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blist.cpp; sourceTree = "<group>"; };
+		29D1F8D51A676D8E000A6E19 /* blist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blist.h; sourceTree = "<group>"; };
+		29D31B181A6DB2CA00DBBC54 /* bstack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bstack.cpp; sourceTree = "<group>"; };
+		29D31B191A6DB2CA00DBBC54 /* bstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bstack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +96,28 @@
 				299A1E301A26BA79000DE775 /* main.cpp */,
 				299A1E371A2E637B000DE775 /* bry_stack.cpp */,
 				299A1E381A2E637B000DE775 /* bry_stack.h */,
+				29D1F8D41A676D8E000A6E19 /* blist.cpp */,
+				29D1F8D51A676D8E000A6E19 /* blist.h */,
+				29C0F48A1A6AF363002AD687 /* clist.cpp */,
+				29C0F48B1A6AF363002AD687 /* clist.h */,
+				29D31B181A6DB2CA00DBBC54 /* bstack.cpp */,
+				29D31B191A6DB2CA00DBBC54 /* bstack.h */,
+				2945297D1A6DBE56008821C2 /* bqueue.cpp */,
+				2945297E1A6DBE56008821C2 /* bqueue.h */,
+				294529801A6E122D008821C2 /* cstack.cpp */,
+				294529811A6E122D008821C2 /* cstack.h */,
+				294529831A6E1D05008821C2 /* SetOfStacks.cpp */,
+				294529841A6E1D05008821C2 /* SetOfStacks.h */,
+				29B989311A6F1B3F007A31F6 /* myqueue.cpp */,
+				29B989321A6F1B3F007A31F6 /* myqueue.h */,
+				29B989341A703E3D007A31F6 /* AnimalQueue.cpp */,
+				29B989351A703E3D007A31F6 /* AnimalQueue.h */,
+				292870101A71A2D400B58B93 /* btree.cpp */,
+				292870111A71A2D400B58B93 /* btree.h */,
+				29ACD4111A75BBAF000B502E /* bgraph.cpp */,
+				29ACD4121A75BBAF000B502E /* bgraph.h */,
+				298533C61A84300400DE6743 /* priority_queue.cpp */,
+				298533C71A84300400DE6743 /* priority_queue.h */,
 			);
 			path = c_plus_plus_practice;
 			sourceTree = "<group>";
@@ -123,8 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2945297F1A6DBE56008821C2 /* bqueue.cpp in Sources */,
 				299A1E391A2E637B000DE775 /* bry_stack.cpp in Sources */,
+				298533C81A84300400DE6743 /* priority_queue.cpp in Sources */,
+				294529851A6E1D05008821C2 /* SetOfStacks.cpp in Sources */,
+				29ACD4131A75BBAF000B502E /* bgraph.cpp in Sources */,
+				29C0F48C1A6AF363002AD687 /* clist.cpp in Sources */,
 				299A1E311A26BA79000DE775 /* main.cpp in Sources */,
+				29B989361A703E3D007A31F6 /* AnimalQueue.cpp in Sources */,
+				29D1F8D61A676D8E000A6E19 /* blist.cpp in Sources */,
+				29D31B1A1A6DB2CA00DBBC54 /* bstack.cpp in Sources */,
+				292870121A71A2D400B58B93 /* btree.cpp in Sources */,
+				29B989331A6F1B3F007A31F6 /* myqueue.cpp in Sources */,
+				294529821A6E122D008821C2 /* cstack.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +304,7 @@
 				299A1E361A26BA79000DE775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

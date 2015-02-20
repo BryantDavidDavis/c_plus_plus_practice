@@ -15,7 +15,15 @@
 
 class Bry_stack {
 private:
-    int top;
-    int size;
+    int* contents;
+    int tp;
+    int sz;
+    int cp;
+public:
+    Bry_stack(int s);
+    int size()const;
+    int capacity()const;
+    int peek()const;
+    int push(int newguy);
 };
 #endif /* defined(__c_plus_plus_practice__bry_stack__) */
