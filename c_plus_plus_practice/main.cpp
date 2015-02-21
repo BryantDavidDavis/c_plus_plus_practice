@@ -158,7 +158,7 @@ private:
 };
 int main(int argc, const char * argv[]) {
     
-    Database database{};
+    Database database {};
     
     std::cout << "welcome to My Simple Database, you can terminate the program by entering END\n";
     
